@@ -1,0 +1,75 @@
+body{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: .8rem;
+
+}
+.container{
+  width: 1000px;
+  height:800px;
+  background-color: #f5f1da;
+  margin: auto;
+}
+.heading{
+  text-align:center;
+  position: relative;
+  top: 40px;
+}
+.changed{
+  color: gray;
+}
+p{
+  color: gray;
+}
+.top-container{
+background-color: white;
+width: 250px;
+height:250px;
+position: relative;
+left: 370px;
+top: 40px;
+border-radius: 5px;
+border-top: 3px solid red;
+padding: 10px 10px;
+display: inline-block;
+}
+.bottom-container{
+  background-color: white;
+  width: 250px;
+  height:250px;
+  position: relative;
+  left:370px;
+  top:80px;
+  border-radius: 5px;
+  border-top: 3px solid yellow;
+  padding: 10px 10px;
+  display: inline-block;
+}
+.left-container{
+  background-color: white;
+  width: 250px;
+  height:250px;
+  position: relative;
+  left: -220px;
+  bottom: -190px;
+  border-radius: 5px;
+  border-top: 3px solid blue;
+  padding: 10px 10px;
+  display: inline-block;
+}
+img{
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+.right-container{
+  background-color: white;
+  width: 250px;
+  height:250px;
+  position: relative;
+  left: 150px;
+  bottom: -190px;
+  border-radius: 5px;
+  border-top: 3px solid #4e89ae;
+  padding: 10px 10px;
+  display: inline-block;
+}
